@@ -1,231 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<style>
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    background-color: #0060b4;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: #ff0000;
+
+}
+h2 {
+    color: #ff0000;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: rgb(25, 216, 0);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
 
 .card {
-  background: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
-  margin: 1rem;
-  flex: 1 1 300px;
-  max-width: 300px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
-.card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 1rem;
+body {
+  background-color: #f4faff;
+  color: #333;
+  line-height: 1.6;
 }
 
-h1, h2 {
-  padding: 0 1rem;
+h1, h2, h3 {
+  color: #005577;
 }
 
-p {
-  padding: 0 1rem;
+img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-/* Responsive ayarlar */
-@media screen and (max-width: 768px) {
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
+@media (max-width: 768px) {
   .card {
-    max-width: 90%;
+    padding: 15px;
+    margin: 10px;
   }
 }
 
-</style>
-
-</head>
-<body>
-    <h1>İklim değişikliği
-</h1>
-    <p>İklim değişikliği, küresel ısınmayı (küresel ortalama sıcaklıkta süregelen artış) ve bunun Dünya'nın iklim sistemi üzerindeki etkilerini ifade eder.
-
-Daha geniş anlamda iklim değişikliği, Dünya'nın iklimindeki önceki uzun vadeli değişiklikleri de içerir. Küresel ortalama sıcaklıktaki mevcut artış, önceki değişikliklerden daha hızlıdır ve esas olarak insanların fosil yakıtları yakmasından kaynaklanmaktadır. Fosil yakıt kullanımı, ormansızlaşma ve bazı tarımsal ve endüstriyel uygulamalar, başta karbondioksit ve metan olmak üzere sera gazlarını artırmaktadır. Sera gazları, Dünya'nın güneş ışığından ısındıktan sonra yaydığı ısının bir kısmını emer. Bu gazların daha büyük miktarları Dünya'nın alt atmosferinde daha fazla ısı tutarak küresel ısınmaya neden olur.
-
-İklim değişikliği nedeniyle çöller genişlerken, sıcak hava dalgaları ve orman yangınları daha yaygın hale gelmektedir. Kuzey Kutbu'nda artan ısınma donmuş toprakların erimesine, buzulların geri çekilmesine ve deniz buzu kaybına katkıda bulundu. Daha yüksek sıcaklıklar aynı zamanda daha yoğun fırtınalara, kuraklıklara ve diğer aşırı hava koşullarına neden olmaktadır. Dağlarda, mercan resiflerinde ve Kuzey Kutbu'nda yaşanan hızlı çevresel değişim, birçok canlı türünün yer değiştirmesine ya da neslinin tükenmesine neden olmaktadır.[10] Gelecekteki ısınmayı en aza indirme çabaları başarılı olsa bile, bazı etkiler yüzyıllar boyunca devam edecektir. Bunlar arasında okyanus ısınması, okyanus asitlenmesi ve deniz seviyesinin yükselmesi yer almaktadır.
-
-İklim değişikliği insanları gıda ve su kıtlığı, artan seller, aşırı sıcaklar, daha fazla hastalık ve ekonomik kayıplarla tehdit etmektedir. İnsan göçü ve çatışmalar da bunun bir sonucu olabilir.[ Dünya Sağlık Örgütü (DSÖ) iklim değişikliğini 21. yüzyılda küresel sağlığa yönelik en büyük tehdit olarak nitelendirmektedir.[daha iyi kaynak gerekli] Toplumlar, kıyı şeridinin korunması veya klimaya erişimin genişletilmesi gibi çabalarla iklim değişikliğine uyum sağlayabilir, ancak bazı etkiler kaçınılmazdır. Yoksul ülkeler küresel emisyonların küçük bir kısmından sorumludur, ancak uyum sağlama konusunda en az yeteneğe sahiptirler ve iklim değişikliğine karşı en savunmasız durumdadırlar.
-
-İklim değişikliğinin birçok etkisi, mevcut 1,2 °C (2,2 °F) ısınma seviyesinde zaten hissedilmektedir. Ek ısınma bu etkileri arttıracak ve Grönland buz tabakasının erimesi gibi devrilme noktalarını tetikleyebilecektir. 2015 Paris Anlaşması kapsamında, ülkeler toplu olarak ısınmayı "2 °C'nin oldukça altında" tutmayı kabul etmiştir. Bununla birlikte, Anlaşma kapsamında verilen taahhütlerle, küresel ısınma yüzyılın sonuna kadar yaklaşık 2,7 °C'ye (4,9 °F) ulaşacaktır. Isınmanın 1.5 °C ile sınırlandırılması, 2030 yılına kadar emisyonların yarıya indirilmesini ve 2050 yılına kadar net sıfır emisyona ulaşılmasını gerektirecektir.
-
-Bobcat Fire in Monrovia, CA, September 10, 2020
-Bleached colony of Acropora coral
-A dry lakebed in California, which is experiencing its worst megadrought in 1,200 years.
-İklim değişikliğinin bazı etkileri, sol üstten saat yönünde: Sıcaklık ve kuraklıkla şiddetlenen orman yangınları, su kaynaklarını tehlikeye atan kuraklıkların kötüleşmesi ve denizdeki sıcak dalgalarının neden olduğu mercan ağarması.
-Emisyonların azaltılması, fosil yakıtların yakılması yerine düşük karbonlu kaynaklardan elektrik üretilmesini gerektirmektedir. Bu değişim, kömür ve doğalgazla çalışan enerji santrallerinin aşamalı olarak kapatılmasını, rüzgar, güneş ve diğer yenilenebilir enerji türlerinin kullanımının büyük ölçüde artırılmasını ve enerji kullanımının azaltılmasını içermektedir. Karbon emisyonu olmayan kaynaklardan üretilen elektriğin, ulaşıma güç sağlamak, binaları ısıtmak ve endüstriyel tesisleri işletmek için fosil yakıtların yerini alması gerekecektir. Karbon, örneğin orman örtüsünün artırılması ve topraktaki karbonu yakalayan yöntemlerle tarım yapılması yoluyla da atmosferden uzaklaştırılabilir.</p>
-<div class="card-container">
-
-<div class="card">
-  <img src="buz.jpg" alt="Buzulların Erimesi">
-  <h3>Buzulların Erimesi</h3>
-  <p>Küresel ısınma nedeniyle buzullar eriyor.</p>
-</div>
-<div class="card">
-  <img src="ağaç.jpg" alt="Doğal Alanlar">
-  <h3>Doğal Alanlar</h3>
-  <p>İklim değişikliği doğanın düzenini bozuyor.</p>
-</div>
-<div class="card">
-  <img src="fabrika.jpg" alt="Atmosferin Yok Oluşu">
-  <h3>Atmosferin Yok Oluşu</h3>
-  <p>Zehirli gazlar nedeniyle atmosfer yok oluyor.</p>
-</div>
-</div>
-    <h2>Terminoloji</h2>
-    <p>1980'lerden önce, artan sera gazlarının ısınma etkisinin hava kirliliğindeki partiküllerin soğutma etkisinden daha güçlü olup olmadığı net değilken, bilim insanları iklim üzerindeki insan etkilerini ifade etmek için kasıtsız iklim değişikliği terimini kullandılar.
-
-1980'lerde küresel ısınma ve iklim değişikliği terimleri daha yaygın hale geldi. Bu iki terim bazen birbirinin yerine kullanılsa da[22] bilimsel olarak küresel ısınma yalnızca yüzeydeki ısınmanın artmasını ifade ederken, iklim değişikliği Dünya'nın iklim sisteminde meydana gelen değişikliklerin bütününü tanımlamaktadır. NASA iklim bilimcisi James Hansen'in 1988'de ABD Senatosunda verdiği ifadede bu terimi kullanmasının ardından, 1975 gibi erken bir tarihte kullanılan küresel ısınma daha popüler bir terim haline geldi. 2000'li yıllardan bu yana iklim değişikliği sözcüğünün kullanımı artmıştır. İklim değişikliği aynı zamanda daha geniş anlamda hem insan kaynaklı değişiklikleri hem de Dünya tarihi boyunca meydana gelen doğal değişiklikleri ifade edebilir.
-
-Çeşitli bilim insanları, politikacılar ve medya artık iklim değişikliğinden bahsetmek için iklim krizi veya iklim acil durumu terimlerini kullanıyor.</p>
-<div class="card-container">
-<div class="card">
-  <img src="yangın.jpg" alt="Orman Yangını">
-  <h3>Orman Yangınları</h3>
-  <p>İklim değişikliği orman yangınlarının sıklığını artırıyor.</p>
-</div>
-<div class="card">
-  <img src="toprak.jpg" alt="Küresel Isınma">
-  <h3>Küresel Isınma</h3>
-  <p>Küresel ısınma nedeniyle sularımız tükeniyor.</p>
-</div>
-<div class="card">
-  <img src="baca.jpg" alt="Orman Yangını">
-  <h3>Zehirli gazlar</h3>
-  <p>Fabrika bacalarından çıkan dumanlar atmosferi zehirliyor.</p>
-</div></div>
-
-    <h2>Gözlenen sıcaklık artışı</h2>
-    <p>Ana maddeler: Son 2000 yılın sıcaklık kaydı ve Enstrümantal sıcaklık kaydı
-
-Ağaç halkaları, mercanlar ve buz çekirdeklerinden elde edilen vekil veriler kullanılarak son 2000 yılda küresel yüzey sıcaklığının yeniden yapılandırılması mavi renktedir. Doğrudan gözlemlenen veriler kırmızıyla gösterilmiştir.
-Birden fazla bağımsız enstrümantal veri seti iklim sisteminin ısındığını göstermektedir. 2011-2020 on yılı, sanayi öncesi temel çizgiye (1850-1900) kıyasla ortalama 1,09 °C [0,95-1,20 °C] ısındı. Yüzey sıcaklıkları her on yılda yaklaşık 0,2 °C artmakta ve 2020 yılında sanayi öncesi dönemin 1,2 °C üzerinde bir sıcaklığa ulaşmaktadır. 1950'den bu yana soğuk gün ve gecelerin sayısı azalmış, sıcak gün ve gecelerin sayısı ise artmıştır.[34]
-
-18'inci yüzyıl ile 19'uncu yüzyılın ortaları arasında çok az net ısınma olmuştur. Bu döneme ait iklim bilgileri, ağaçlar ve buz çekirdekleri gibi iklim vekillerinden gelmektedir. Termometre kayıtları 1850 civarında küresel kapsam sağlamaya başlamıştır. Orta Çağ İklim Anomalisi ve Küçük Buz Çağı gibi tarihsel ısınma ve soğuma modelleri, farklı bölgelerde aynı zamanda meydana gelmemiştir. Sıcaklıklar, sınırlı sayıda bölgede 20. yüzyılın sonlarındaki kadar yüksek seviyelere ulaşmış olabilir. Paleosen-Eosen Termal Maksimum gibi tarih öncesi küresel ısınma dönemleri olmuştur. Ancak, sıcaklık ve CO2 konsantrasyonlarındaki modern gözlemlenen artış o kadar hızlı olmuştur ki Dünya tarihindeki ani jeofiziksel olaylar bile mevcut oranlara yaklaşmamaktadır.
-
-Hava sıcaklığı ölçümlerinden elde edilen ısınma kanıtları, çok çeşitli diğer gözlemlerle de desteklenmektedir. Örneğin, şiddetli yağışların sıklığında ve yoğunluğunda artış, kar ve kara buzlarının erimesi ve atmosferik nemin artması gibi doğal su döngüsündeki değişiklikler tahmin edilmiş ve gözlemlenmiştir. Flora ve fauna da ısınma ile tutarlı bir şekilde davranmaktadır; örneğin bitkiler ilkbaharda daha erken çiçek açmaktadır. Bir diğer önemli gösterge de üst atmosferin soğumasıdır; bu da sera gazlarının ısıyı Dünya yüzeyinin yakınında hapsettiğini ve uzaya yayılmasını engellediğini göstermektedir.
-
-Dünyanın bölgeleri farklı oranlarda ısınmaktadır. Bu örüntü sera gazlarının nereden salındığından bağımsızdır, çünkü gazlar gezegen boyunca yayılacak kadar uzun süre kalmaktadır. Sanayi öncesi dönemden bu yana, kara bölgelerindeki ortalama yüzey sıcaklığı, küresel ortalama yüzey sıcaklığından neredeyse iki kat daha hızlı artmıştır. Bunun nedeni okyanusların daha büyük ısı kapasitesi ve okyanusların buharlaşma yoluyla daha fazla ısı kaybetmesidir. Küresel iklim sistemindeki termal enerji en azından 1970'ten bu yana sadece kısa süreli duraklamalarla artmış ve bu ekstra enerjinin %90'ından fazlası okyanuslarda depolanmıştır. Geri kalanı ise atmosferi ve kıtaları ısıtmış ve buzları eritmiştir.
-
-Kuzey yarımküre ve Kuzey Kutbu, Güney Kutbu ve Güney yarımküreye kıyasla çok daha hızlı ısınmıştır. Kuzey yarımküre sadece çok daha fazla karaya değil, aynı zamanda daha fazla mevsimsel kar örtüsüne ve deniz buzuna sahiptir. Bu yüzeyler, buzlar eridikten sonra çok fazla ışık yansıtmaktan karanlık olmaya geçtikçe, daha fazla ısı emmeye başlarlar. Kar ve buz üzerindeki yerel siyah karbon birikintileri de Arktik ısınmaya katkıda bulunur. Kuzey Kutbu'ndaki sıcaklıklar dünyanın geri kalanına göre iki kattan fazla artmaktadır. Kuzey Kutbu'ndaki buzulların ve buz tabakalarının erimesi, zayıflamış bir Körfez Akıntısı da dahil olmak üzere okyanus dolaşımını bozarak iklimi daha da değiştirmektedir.</p>
-<!-- Chart.js CDN -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<section style="max-width: 700px; margin: 50px auto; text-align: center;">
-  <h2>Yıllara Göre Küresel Sıcaklık Artışı</h2>
-  <canvas id="temperatureChart" width="600" height="400"></canvas>
-</section>
-
-<script>
-  const ctx = document.getElementById('temperatureChart').getContext('2d');
-  const temperatureChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: ['1880', '1900', '1920', '1940', '1960', '1980', '2000', '2020'],
-      datasets: [{
-        label: 'Sıcaklık Anomalisi (°C)',
-        data: [-0.12, -0.08, -0.2, 0.03, 0.01, 0.27, 0.54, 0.98],
-        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-        borderColor: 'rgba(255, 99, 132, 1)',
-        borderWidth: 2,
-        fill: true,
-        tension: 0.3
-      }]
-    },
-    options: {
-      responsive: true,
-      scales: {
-        y: {
-          beginAtZero: false,
-          title: {
-            display: true,
-            text: '°C'
-          }
-        }
-      }
-    }
-  });
-</script>
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-   <h2>Ne yapılmalı</h2>
-   <p>1. Enerji Tüketimini Azaltmak
-Gereksiz yere ışıkları ve elektronik cihazları kapat.
-
-🌍Enerji verimli ampuller ve cihazlar kullan.
-
-Güneş paneli gibi yenilenebilir enerji kaynaklarına yönel.
-
-🚲 2. Ulaşımda Karbon Ayak İzini Azaltmak
-Mümkünse yürüyerek, bisikletle ya da toplu taşımayla seyahat et.
-
-Özel araç yerine paylaşımlı ulaşımı tercih et.
-
-Elektrikli araçları destekle ve kısa mesafelerde araç kullanmaktan kaçın.
-
-🍽️ 3. Daha Sürdürülebilir Beslenme
-Et ve süt ürünlerini azalt, çünkü hayvancılık büyük miktarda sera gazı üretir.
-
-Yerel ve mevsimlik ürünler tüket.
-
-Gıda israfından kaçın.
-
-♻️ 4. Geri Dönüşüm ve Atık Azaltımı
-Plastik kullanımını azalt, bez çanta ve cam şişe gibi tekrar kullanılabilir ürünler kullan.
-
-Kağıt, cam, plastik ve metal atıkları geri dönüştür.
-
-Kompost yaparak organik atıkları toprağa kazandır.
-
-🌳 5. Doğayı Koruma ve Ağaçlandırma
-Ağaç dikmek, atmosferdeki karbondioksiti azaltmanın en doğal yollarındandır.
-
-Ormanları, su kaynaklarını ve doğal alanları korumaya destek ver.
-
-Çevre dostu projelerde gönüllü ol.
-
-🗳️ 6. Toplumsal ve Politik Katılım
-Çevreye duyarlı politikaları destekleyen kurum ve adaylara oy ver.
-
-Okulda, sosyal medyada veya toplulukta farkındalık yarat.
-
-Geri dönüşüm, temiz enerji ve iklim yasalarının uygulanmasını talep et.
-
-👣 7. Karbon Ayak İzini Bilmek ve Azaltmak
-"https://www.carbonfootprint.com" gibi sitelerden kişisel karbon ayak izini hesapla.
-
-Nerelerde tasarruf yapabileceğini gör ve alışkanlıklarını buna göre şekillendir.
-<br><br>
-<a href="index_with_chart.html" class="button">Ana Sayfa</a>
-<a href="https://tr.wikipedia.org/wiki/%C4%B0klim_de%C4%9Fi%C5%9Fikli%C4%9Fi" target="_blank" class="button">Daha da detaylı bilgiye ulaşmak için tıklayın</a>
-</p>
-</body>
-</html>
