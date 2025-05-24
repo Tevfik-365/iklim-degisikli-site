@@ -12,3 +12,54 @@ h2 {
     color: #ff0000;
 }
 
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: rgb(25, 216, 0);
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+body {
+  background-color: #f4faff;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #005577;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;
+    margin: 10px;
+  }
+}
+
