@@ -7,9 +7,58 @@
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+h1, h2 {
+  padding: 0 1rem;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+/* Responsive ayarlar */
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
 </style>
 
 </head>
@@ -31,6 +80,8 @@ Bleached colony of Acropora coral
 A dry lakebed in California, which is experiencing its worst megadrought in 1,200 years.
 İklim değişikliğinin bazı etkileri, sol üstten saat yönünde: Sıcaklık ve kuraklıkla şiddetlenen orman yangınları, su kaynaklarını tehlikeye atan kuraklıkların kötüleşmesi ve denizdeki sıcak dalgalarının neden olduğu mercan ağarması.
 Emisyonların azaltılması, fosil yakıtların yakılması yerine düşük karbonlu kaynaklardan elektrik üretilmesini gerektirmektedir. Bu değişim, kömür ve doğalgazla çalışan enerji santrallerinin aşamalı olarak kapatılmasını, rüzgar, güneş ve diğer yenilenebilir enerji türlerinin kullanımının büyük ölçüde artırılmasını ve enerji kullanımının azaltılmasını içermektedir. Karbon emisyonu olmayan kaynaklardan üretilen elektriğin, ulaşıma güç sağlamak, binaları ısıtmak ve endüstriyel tesisleri işletmek için fosil yakıtların yerini alması gerekecektir. Karbon, örneğin orman örtüsünün artırılması ve topraktaki karbonu yakalayan yöntemlerle tarım yapılması yoluyla da atmosferden uzaklaştırılabilir.</p>
+<div class="card-container">
+
 <div class="card">
   <img src="buz.jpg" alt="Buzulların Erimesi">
   <h3>Buzulların Erimesi</h3>
@@ -46,12 +97,14 @@ Emisyonların azaltılması, fosil yakıtların yakılması yerine düşük karb
   <h3>Atmosferin Yok Oluşu</h3>
   <p>Zehirli gazlar nedeniyle atmosfer yok oluyor.</p>
 </div>
+</div>
     <h2>Terminoloji</h2>
     <p>1980'lerden önce, artan sera gazlarının ısınma etkisinin hava kirliliğindeki partiküllerin soğutma etkisinden daha güçlü olup olmadığı net değilken, bilim insanları iklim üzerindeki insan etkilerini ifade etmek için kasıtsız iklim değişikliği terimini kullandılar.
 
 1980'lerde küresel ısınma ve iklim değişikliği terimleri daha yaygın hale geldi. Bu iki terim bazen birbirinin yerine kullanılsa da[22] bilimsel olarak küresel ısınma yalnızca yüzeydeki ısınmanın artmasını ifade ederken, iklim değişikliği Dünya'nın iklim sisteminde meydana gelen değişikliklerin bütününü tanımlamaktadır. NASA iklim bilimcisi James Hansen'in 1988'de ABD Senatosunda verdiği ifadede bu terimi kullanmasının ardından, 1975 gibi erken bir tarihte kullanılan küresel ısınma daha popüler bir terim haline geldi. 2000'li yıllardan bu yana iklim değişikliği sözcüğünün kullanımı artmıştır. İklim değişikliği aynı zamanda daha geniş anlamda hem insan kaynaklı değişiklikleri hem de Dünya tarihi boyunca meydana gelen doğal değişiklikleri ifade edebilir.
 
 Çeşitli bilim insanları, politikacılar ve medya artık iklim değişikliğinden bahsetmek için iklim krizi veya iklim acil durumu terimlerini kullanıyor.</p>
+<div class="card-container">
 <div class="card">
   <img src="yangın.jpg" alt="Orman Yangını">
   <h3>Orman Yangınları</h3>
@@ -66,7 +119,8 @@ Emisyonların azaltılması, fosil yakıtların yakılması yerine düşük karb
   <img src="baca.jpg" alt="Orman Yangını">
   <h3>Zehirli gazlar</h3>
   <p>Fabrika bacalarından çıkan dumanlar atmosferi zehirliyor.</p>
-</div>
+</div></div>
+
     <h2>Gözlenen sıcaklık artışı</h2>
     <p>Ana maddeler: Son 2000 yılın sıcaklık kaydı ve Enstrümantal sıcaklık kaydı
 
@@ -169,8 +223,9 @@ Geri dönüşüm, temiz enerji ve iklim yasalarının uygulanmasını talep et.
 "https://www.carbonfootprint.com" gibi sitelerden kişisel karbon ayak izini hesapla.
 
 Nerelerde tasarruf yapabileceğini gör ve alışkanlıklarını buna göre şekillendir.
+<br><br>
 <a href="index_with_chart.html" class="button">Ana Sayfa</a>
-<a href="https://tr.wikipedia.org/wiki/%C4%B0klim_de%C4%9Fi%C5%9Fikli%C4%9Fi" class="button">Daha da detaylı bilgiye ulaşmak için tıklayın</a>
+<a href="https://tr.wikipedia.org/wiki/%C4%B0klim_de%C4%9Fi%C5%9Fikli%C4%9Fi" target="_blank" class="button">Daha da detaylı bilgiye ulaşmak için tıklayın</a>
 </p>
 </body>
 </html>
